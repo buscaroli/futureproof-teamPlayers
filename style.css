@@ -1,0 +1,73 @@
+:root {
+  --bg-color: black;
+  --fg-color: white;
+  --accent-color: teal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.header {
+  background-color: var(--bg-color);
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;;  
+
+}
+
+main {
+  
+  
+}
+
+ .picture-section {
+   margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 80vw;
+  padding: 1rem;
+  box-shadow: 10px 10px green;
+ }
+
+ .picture-section img {
+   width: 100%;
+   box-shadow: 5px 5px red;
+  }
+
+.table {
+  margin: 0 auto;
+  width: 80vw;
+  border: 2px solid grey;
+}
+
+.table td, table th {
+  padding: 5px;
+  font-size: 1.3em;
+  
+}
+
+.table tr:nth-child(even) {
+  background-color: green;
+  
+}
+.table tr:nth-child(odd) {
+  background-color: red;
+}
+ 
+
+ #footer {
+   margin-top: 2em;
+   display: flex;
+   justify-content: center;
+   align-items: center;;
+   height: 60px;
+   background-color: var(--bg-color);
+   color: var(--fg-color)
+ }
